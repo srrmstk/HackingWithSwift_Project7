@@ -14,6 +14,9 @@
 		F741161F2A59880100E352E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F741161E2A59880100E352E0 /* Assets.xcassets */; };
 		F74116222A59880100E352E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74116202A59880100E352E0 /* LaunchScreen.storyboard */; };
 		F741162A2A59884D00E352E0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F74116292A59884D00E352E0 /* .gitignore */; };
+		F741162C2A59BD2B00E352E0 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741162B2A59BD2B00E352E0 /* Petition.swift */; };
+		F741162E2A59BDB000E352E0 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741162D2A59BDB000E352E0 /* Petitions.swift */; };
+		F74116302A5A9B1100E352E0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741162F2A5A9B1100E352E0 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		F74116212A59880100E352E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F74116232A59880100E352E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74116292A59884D00E352E0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F741162B2A59BD2B00E352E0 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		F741162D2A59BDB000E352E0 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		F741162F2A5A9B1100E352E0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				F74116152A59880000E352E0 /* AppDelegate.swift */,
 				F74116172A59880000E352E0 /* SceneDelegate.swift */,
 				F74116192A59880000E352E0 /* ViewController.swift */,
+				F741162F2A5A9B1100E352E0 /* DetailsViewController.swift */,
+				F741162B2A59BD2B00E352E0 /* Petition.swift */,
+				F741162D2A59BDB000E352E0 /* Petitions.swift */,
 				F741161B2A59880000E352E0 /* Main.storyboard */,
 				F741161E2A59880100E352E0 /* Assets.xcassets */,
 				F74116202A59880100E352E0 /* LaunchScreen.storyboard */,
@@ -143,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F741161A2A59880000E352E0 /* ViewController.swift in Sources */,
+				F741162C2A59BD2B00E352E0 /* Petition.swift in Sources */,
 				F74116162A59880000E352E0 /* AppDelegate.swift in Sources */,
 				F74116182A59880000E352E0 /* SceneDelegate.swift in Sources */,
+				F741162E2A59BDB000E352E0 /* Petitions.swift in Sources */,
+				F74116302A5A9B1100E352E0 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
